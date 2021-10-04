@@ -7,10 +7,12 @@ export const StoriesContainer = () => {
 
     useEffect(() => {
         getStoryIds().then(data => setStoryIds(data));
+        
         // getStory(2921983).then(data => console.log(data));
     }, [])
 
-    // return <p>{JSON.stringify(storyIds)}</p>
+    
+    // return storyIds.map(storyId => <Story storyId={'farts'}/>);
     return storyIds.map(storyId => <Story storyId={storyId}/>);
  
 }
