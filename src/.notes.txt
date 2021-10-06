@@ -1,0 +1,9 @@
+he added yarn add styled-components for his styles.
+
+debounce make the scroll stop for a period of time
+
+jest -- no idea whats with mock/mockimplementation, Promise.resolve. testing is weak 
+- not really a good explanation here so idk if it's worth watching full ending slow.
+
+lighthouse and yarn build
+serve -s build
